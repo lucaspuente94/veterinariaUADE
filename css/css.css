@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #061b2c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #061b2c;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.input-send {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+.container.dark-mode {
+    background-color: #444;
+    color: #fff;
+}
+nav.dark-mode {
+    background-color: #555;
+}
+
+.nav-item-button{
+    text-align: center;
+}
+
+.inicio {
+    padding: 50px 20px;
+    text-align: center;
+}
+.servicios {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text-start{
+    text-align: left;
+}
